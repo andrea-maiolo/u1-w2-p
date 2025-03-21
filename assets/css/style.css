@@ -123,6 +123,10 @@ main {
   width: 100%;
 }
 
+.special-shop .para {
+  padding-top: 0;
+}
+
 footer {
   background-color: #222f3f;
 }
