@@ -6,6 +6,23 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.tx-align {
+  text-align: center;
+}
+
+.para {
+  padding: 1rem;
+  font-weight: 500;
+}
+
+.anchor {
+  margin-left: 1rem;
+  color: #17788b;
+  font-size: 0.9rem;
+  text-decoration: none;
+  font-weight: bold;
+}
+
 header {
   background-color: #222f3f;
 }
@@ -22,8 +39,12 @@ header nav {
 
 header nav ul li {
   display: inline-block;
-  margin: 0 1rem;
-  padding: 0.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+header nav ul li {
+  margin-left: 1rem;
 }
 
 main {
@@ -34,44 +55,27 @@ main {
 #bg-y {
   background-color: #f56600;
   color: #fff;
-  text-align: center;
   padding: 1rem 0;
-}
-
-#main-text {
-  background-image: url(../images/bg-image.png);
-  background-position: center;
-  color: #fff;
-  text-align: center;
-  padding: 3rem;
   margin-top: 1rem;
 }
 
-#main-text h2 {
+#guides {
+  background-image: url(../images/bg-image.png);
+  background-position: center;
+  color: #fff;
+  padding: 3rem;
+  margin-top: 2rem;
+}
+
+#guides h2 {
   font-size: 1.75rem;
   font-weight: bold;
   margin-bottom: 1rem;
 }
 
-#container {
+#img-container {
   background-color: #fff;
-  margin-top: 1.5rem;
-}
-
-#container p {
-  padding: 1rem;
-}
-
-#container p a {
-  margin-left: 1rem;
-  color: #155c6a;
-  font-size: 0.9rem;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-#block-images {
-  text-align: center;
+  margin-top: 2rem;
 }
 
 #block-images div {
@@ -80,44 +84,51 @@ main {
   height: 445px;
   margin: 1rem;
   box-shadow: 6px 6px 10px 0px #cac6c6;
-  border-radius: 10px;
+  border-radius: 20px;
 }
 
-#block-images div img {
-  height: 100%;
-  width: 100%;
-  border-radius: 10px;
+#firstImage {
+  background-image: url(../images/img_1.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#secondImage {
+  background-image: url(../images/img_2.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#thirdImage {
+  background-image: url(../images/img_3.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#forthImage {
+  background-image: url(../images/img_4.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .special-shop {
   margin-top: 1rem;
-  text-align: center;
-}
-
-.special-shop p {
-  padding: 1rem;
-}
-
-.special-shop p a {
-  margin-left: 1rem;
-  color: #155c6a;
-  font-size: 0.9rem;
-  text-decoration: none;
-  font-weight: bold;
 }
 
 .special-shop img {
-  max-width: 100%;
+  width: 100%;
 }
 
 footer {
   background-color: #222f3f;
-  text-align: center;
 }
 
 footer p {
   background-color: #364757;
-  padding: 1rem;
 }
 
 footer p a {
