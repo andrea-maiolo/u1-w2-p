@@ -51,16 +51,6 @@ console.log(pets);
      con valore a tua scelta.
 */
 
-//---------------------------
-// console.log(myLicense[i]);
-
-// DEVI CREARE UNA FUNZIONE
-// crea una license
-// 2 lettere 3 numeri 2lettere
-// function random() {
-//   return Math.floor(Math.random() * 10);
-// }
-//------------------------
 const cars = [
   {
     brand: "Ford",
@@ -97,7 +87,7 @@ console.log(cars);
     Successivamente, rimuovi l'ultimo elemento della proprietà "trims" da ogni auto.
 */
 
-myCar = { brand: "Toyota", model: "yaris", color: "grey", licensePlate: "OT593LS", trims: ["titanium", "st", "active"] };
+myCar = { brand: "Toyota", model: "yaris", color: "grey", licensePlate: "OT593LS", trims: ["titanium", "st", "active"], licensePlate: "OF492SD" };
 cars.push(myCar);
 console.log(cars);
 
@@ -137,11 +127,9 @@ for (let i = 0; i < cars.length; i++) {
 }
 
 /* ESERCIZIO 9
-    Utilizza un ciclo while per stampare in console i valori del seguente array numerico fino al raggiungimento del numero 32.
+    Utilizza un ciclo while per stampare in console i valori del seguente array numerico fino
+     al raggiungimento del numero 32.
 */
-//-------------------------------
-// prova a stampare anche32
-//----------------------------------
 
 const numericArray = [6, 90, 45, 75, 84, 98, 35, 74, 31, 2, 8, 23, 100, 32, 66, 313, 321, 105];
 
@@ -151,6 +139,10 @@ while (reference !== 32) {
   console.log(numericArray[counter]);
   counter++;
   reference = numericArray[counter];
+}
+
+if (reference === 32) {
+  console.log("Eccomi", reference);
 }
 
 /* ESERCIZIO 10
