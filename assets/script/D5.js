@@ -87,7 +87,7 @@ console.log(cars);
     Successivamente, rimuovi l'ultimo elemento della proprietà "trims" da ogni auto.
 */
 
-myCar = { brand: "Toyota", model: "yaris", color: "grey", licensePlate: "OT593LS", trims: ["titanium", "st", "active"], licensePlate: "OF492SD" };
+let myCar = { brand: "Toyota", model: "yaris", color: "grey", licensePlate: "OT593LS", trims: ["titanium", "st", "active"], licensePlate: "OF492SD" };
 cars.push(myCar);
 console.log(cars);
 
